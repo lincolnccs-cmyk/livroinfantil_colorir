@@ -47,12 +47,12 @@ export const config = {
   // Artwork. `cover` and `previews` currently use concept art cropped from the
   // visual references; swap in the final files (same paths or new ones).
   images: {
-    cover: "assets/img/cover.webp",
+    cover: "cover.webp",
     previews: [
-      { src: "assets/img/page-fox.webp", alt: "Coloring page preview: a fox sitting among leaves and clouds" },
-      { src: "assets/img/page-rabbit.webp", alt: "Coloring page preview: a rabbit holding a carrot" },
-      { src: "assets/img/page-bear.webp", alt: "Coloring page preview: a smiling bear cub" },
-      { src: "assets/img/page-deer.webp", alt: "Coloring page preview: a spotted fawn standing in a meadow" },
+      { src: "page-fox.webp", alt: "Coloring page preview: a fox sitting among leaves and clouds" },
+      { src: "page-rabbit.webp", alt: "Coloring page preview: a rabbit holding a carrot" },
+      { src: "page-bear.webp", alt: "Coloring page preview: a smiling bear cub" },
+      { src: "page-deer.webp", alt: "Coloring page preview: a spotted fawn standing in a meadow" },
     ],
   },
 

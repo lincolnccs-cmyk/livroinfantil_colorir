@@ -57,7 +57,7 @@ const checkoutReady = /^https?:\/\//i.test(config.checkoutUrl || "");
 const missingDialog = document.getElementById("checkout-missing");
 
 if (!checkoutReady) {
-  console.warn("[Cute Forest Friends] checkoutUrl is not set in js/config.js — purchase buttons are inactive.");
+  console.warn("[Cute Forest Friends] checkoutUrl is not set in config.js — purchase buttons are inactive.");
 }
 
 document.querySelectorAll("[data-checkout]").forEach((btn) => {

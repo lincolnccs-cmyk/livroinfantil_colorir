@@ -16,7 +16,7 @@ python3 -m http.server 8000     # or: npx serve .
 Upload the repository root to any static host (Netlify, Vercel, Cloudflare Pages, GitHub Pages).
 Publish directory: `/` (root). No build command.
 
-## Where to change things — `js/config.js`
+## Where to change things — `config.js`
 
 | What | Key |
 | --- | --- |
@@ -49,7 +49,7 @@ All purchase buttons share the one `checkoutUrl`. While it is empty they open a
   `cover.webp` (book cover), `page-*.webp` (4 coloring-page previews, upscaled and low-res),
   `fox/rabbit/bear/deer/hedgehog/owl.webp` and `forest-scene.webp` (watercolor characters).
   **Replace `cover.webp` and `page-*.webp` with the real product files** — the previews are
-  concept drawings, not the final pages. Keep the same filenames or update `js/config.js`.
+  concept drawings, not the final pages. Keep the same filenames or update `config.js`.
 - `assets/img/og.jpg` — social share image (1200×630).
 - `assets/fonts/` — self-hosted Fredoka and Nunito (SIL OFL 1.1).
 
